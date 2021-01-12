@@ -6,8 +6,11 @@
 .showing{
     display: block;
 }
+
+
+
 body{
-    color:antiquewhite;
+    color:white;
 }
 
 
@@ -30,3 +33,84 @@ body{
     z-index:-1;
     animation:  fadeIn 0.3s linear;
 }
+
+.js-weather{
+    font-size: 20pt;
+    position: absolute;
+    top:50px;
+    left:20px;
+}
+
+
+.js-clock h1{
+    font-size: 100pt;
+    color:white;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    margin-top: 250pt;
+    margin-bottom: 0pt;
+}
+
+.js-greetings{
+    font-size: 30pt;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+     margin-top: 5pt;
+}
+
+.js-toDoForm{
+    display: flex;
+    justify-content: center;
+      align-items: center;
+    
+  
+}
+
+.js-toDoForm input{
+    
+    border:none;
+    width:300px;
+    height: 30px;
+    font-size: 25pt;
+    background-color:rgb(0, 0, 0, 0);
+    border-bottom: 5px solid rgba(247, 7, 7, 1);
+    margin-bottom: 25px;
+    margin-bottom: 0px;
+}
+
+.js-toDoForm input:focus{
+    outline:none;
+}
+
+.js-toDoForm input::placeholder{
+    color:tomato;
+    font-weight: bold;
+    text-align: center;
+}
+
+.toDoListDiv{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20pt;
+    color:tomato;
+}
+
+.toDoListDiv li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toDoListDiv button{
+    margin-left:20pt;
+    font-size: 15pt;
+    color:tomato;
+    background-color:rgb(0, 0, 0, 0);
+    border: none;
+    border-bottom: 5px solid rgb(245, 113, 6);
+}
+
